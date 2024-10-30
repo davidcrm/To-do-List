@@ -28,8 +28,7 @@ export default function Todo() {
   })
 
   return (
-    <div> 
-      <div className='imagen'><img src={`${process.env.BASE_URL}images/checklist.webp`}/></div>
+    <div>
       <h1>todo List:</h1>
       <input type="text" id='todo-input'/>
       <button onClick={() => setTodo(document.getElementById("todo-input").value)}>Añadir tarea</button>
