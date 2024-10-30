@@ -1,0 +1,6 @@
+.imagen{
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+}
